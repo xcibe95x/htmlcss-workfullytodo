@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" class="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="img/logo.png" class="favicon">
+
+<title>Mauro Leoci - ToDoList Template</title>
+</head>
+
+<body>
+    
+    <!-- Header Section -->
+    <header>
+        <img class="logo" src="img/logo.webp" alt="workfully">
+    </header>
+    
+    <div class="container">
+  
+        <main>
+
+            <!-- Action Panel -->
+
+            <div class="action-panel">
+                <input id="submit_task" onclick="alert('Task added successfully!')" class="button f" type="button" value="ADD TASK">
+                <input id="submit_section" onclick="alert('Section added successfully!')" class="button" type="button" value="ADD SECTION">
+            </div>
+
+            <hr>
+
+            <!-- Task List -->
+
+            <section id="tasks" class="tasks">
+                
+                <!-- New Task -->
+                <button class="dropdown" type="button"></button><h2>New Task</h2>
+                    
+                    <div class="task">
+                        <span class="completed">&checkmark;</span><p>Quarterly News Letter</p><span class="bubble editorial">Editorial</span>
+                    </div>
+                    <div class="task">
+                        <span class="pending">&Cross;</span><p>Update Front End</p><span class="bubble special">Special</span>
+                    </div>
+
+            </section>
+
+
+            <!-- Today List -->
+
+            <section id="today" class="tasks">
+                
+                <!-- Today -->
+                <button class="dropdown" type="button"></button><h2>Today</h2>
+
+                    <div class="task">
+                        <span class="completed">&checkmark;</span><p>Recruiting blog post</p><span class="bubble editorial">Editorial</span>
+                    </div>
+                    <div class="task">
+                        <span class="completed">&checkmark;</span><p>Mobile app launch</p><span class="bubble various">Various</span>
+                    </div>
+                    <div class="task">
+                        <span class="pending">&Cross;</span><p>Interview John H.</p><span class="bubble recruiting">Recruiting</span>
+                    </div>
+                    <div class="task">
+                        <span class="completed">&checkmark;</span><p>Summit update to mobile storefront</p><span class="bubble mobile">Mobile</span>
+                    </div>
+
+
+            </section>
+
+            <!-- Upcoming List -->
+
+            <section id="upcoming" class="tasks">
+                
+                <!-- Upcoming -->
+                <button class="dropdown" type="button"></button><h2>Upcoming</h2>
+
+                    <div class="task">
+                        <span class="completed">&checkmark;</span><p>Schedule meeting with Alex</p>
+                    </div>
+                    <div class="task">
+                        <span class="completed">&checkmark;</span><p>Homepage Refresh</p><span class="bubble website">Website</span>
+                    </div>
+                    <div class="task">
+                       <span class="pending">&Cross;</span><p>Onboard new Sales team member</p><span class="bubble sales">Sales</span>
+                    </div>
+                    <div class="task">
+                    <span class="completed">&checkmark;</span><p>Review editorial calendar</p><span class="bubble editorial">Editorial</span>
+                    </div>
+
+            </section>
+
+        </main>
+    
+    </div>
+
+    <!-- Footer -->
+            
+    <footer>powered by <b>Mauro Leoci</b> &lambda;</footer>
+
+</body>
+</html>

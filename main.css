@@ -1,0 +1,208 @@
+/* Author: Mauro Leoci */
+/* @desc To do list */ 
+
+
+/* General */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ff4500; /* λ My Trademark Color λ */
+    margin: 0 auto;
+}
+
+header  {
+    background: white;
+    width: 100%;
+    padding: 20px;
+}
+
+hr {
+    border-style: solid;
+    color: #ff4500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section {
+    display: block;
+    font-weight: bold;
+}
+
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Page Logo */
+
+.logo {
+    margin-top: 5px;
+}
+
+/* Containers Section */
+
+.container {
+
+    background-color: #fff;
+    width: 60%;
+    padding: 20px 0 50px 0;
+    margin: 200px auto;
+    border-radius: 10px;
+    overflow: auto;
+
+}
+
+
+.action-panel {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+
+/* Tasks */
+
+.tasks {
+    margin: 20px;
+}
+
+.tasks > h2 {
+    display: inline-block;
+}
+
+.task {
+    padding: 5px;
+}
+
+.task > p {
+    display: inline;
+    line-height: 30px;
+}
+ 
+.task > span {
+    margin-right: 10px;
+}
+
+.task > span.completed, span.pending {
+    border-radius: 100%;
+    padding: 2px 6px;
+}
+
+.completed {
+
+    color: green;
+    border: 2px solid green;
+
+}
+
+.pending {
+
+    color: darkred;
+    border: 2px solid darkred;
+
+}
+
+.dropdown {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    background: none;
+    border-top: 8px solid;
+    border-right: 8px solid transparent;
+    border-bottom: 0;
+    border-left: 8px solid transparent;
+}
+
+/* Buttons Style */
+
+.button {
+
+    color: #ff4500;
+    background: white;
+    border: 1px solid #ff4500;
+    border-radius: 5px;
+    padding: 1px 15px 1px 15px;
+    font-weight: bold;
+    height: 35px;
+
+}
+
+
+.button:hover {
+
+    color: #f18f6b;
+    cursor: pointer;
+    border: 1px solid #f18f6b;
+
+}
+
+
+.button.f {
+
+    color: white;
+    background: #ff4500;
+    border-radius: 5px;
+    padding: 1px 15px 1px 15px;
+    border: 0;
+    height: 35px;
+
+}
+
+.button.f:hover {
+
+    cursor: pointer;
+    background: #f18f6b;
+
+}
+
+
+/* Bubbles */
+
+.bubble {
+
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 75%;
+    font-weight: 400;
+    border-radius: 16px;
+    color: #fff;
+    background-color: #6c757d;
+    margin-left: 10px;
+
+}
+
+.bubble.editorial {
+    background-color: #11ACEE;
+}
+
+.bubble.various {
+    background-color: #9C72E4;
+}
+
+.bubble.recruiting {
+    background-color: #64C0A9;
+}
+
+.bubble.special {
+    background-color: #ca2525;
+}
+
+.bubble.mobile {
+    background-color: #F39E32;
+}
+
+.bubble.website {
+    background-color: #DB6CA8;
+}
+
+.bubble.sales {
+    background-color: #B0CA25;
+}
