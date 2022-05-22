@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css" class="style">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="img/logo.png" class="favicon">
-
-<title>Mauro Leoci - ToDoList Template</title>
+    <title>Workfully To do List</title>
 </head>
 
 <body>
@@ -41,12 +40,10 @@
                 <!-- New Task -->
                 <button class="dropdown" type="button"></button><h2>New Task</h2>
                     
-                    <div class="task">
-                        <span class="completed">&checkmark;</span><p>Quarterly News Letter</p><span class="bubble editorial">Editorial</span>
-                    </div>
-                    <div class="task">
-                        <span class="pending">&Cross;</span><p>Update Front End</p><span class="bubble special">Special</span>
-                    </div>
+                    <ul class="task">
+                        <li class="completed">Quarterly News Letter<span class="bubble editorial">Editorial</span></li>
+                        <li>Update Front End<span class="bubble special">Special</span></li>
+                    </ul>
 
             </section>
 
@@ -58,19 +55,12 @@
                 <!-- Today -->
                 <button class="dropdown" type="button"></button><h2>Today</h2>
 
-                    <div class="task">
-                        <span class="completed">&checkmark;</span><p>Recruiting blog post</p><span class="bubble editorial">Editorial</span>
-                    </div>
-                    <div class="task">
-                        <span class="completed">&checkmark;</span><p>Mobile app launch</p><span class="bubble various">Various</span>
-                    </div>
-                    <div class="task">
-                        <span class="pending">&Cross;</span><p>Interview John H.</p><span class="bubble recruiting">Recruiting</span>
-                    </div>
-                    <div class="task">
-                        <span class="completed">&checkmark;</span><p>Summit update to mobile storefront</p><span class="bubble mobile">Mobile</span>
-                    </div>
-
+                <ul class="task">
+                    <li class="completed">Recruiting blog post<span class="bubble editorial">Editorial</span></li>
+                    <li class="completed">Mobile app launch<span class="bubble various">Various</span></li>
+                    <li>Interview John H.<span class="bubble recruiting">Recruiting</span></li>
+                    <li class="completed">Summit update to mobile storefront<span class="bubble mobile">Mobile</span></li>
+                </ul>
 
             </section>
 
@@ -81,18 +71,12 @@
                 <!-- Upcoming -->
                 <button class="dropdown" type="button"></button><h2>Upcoming</h2>
 
-                    <div class="task">
-                        <span class="completed">&checkmark;</span><p>Schedule meeting with Alex</p>
-                    </div>
-                    <div class="task">
-                        <span class="completed">&checkmark;</span><p>Homepage Refresh</p><span class="bubble website">Website</span>
-                    </div>
-                    <div class="task">
-                       <span class="pending">&Cross;</span><p>Onboard new Sales team member</p><span class="bubble sales">Sales</span>
-                    </div>
-                    <div class="task">
-                    <span class="completed">&checkmark;</span><p>Review editorial calendar</p><span class="bubble editorial">Editorial</span>
-                    </div>
+                <ul class="task">
+                    <li class="completed">Schedule meeting with Alex<span class="bubble website">Website</span></li>
+                    <li class="completed">Homepage Refresh<span class="bubble website">Website</span></li>
+                    <li class="completed">Onboard new Sales team member<span class="bubble sales">Sales</span></li>
+                    <li class="completed">Review editorial calendar<span class="bubble editorial">Editorial</span></li>
+                </ul>
 
             </section>
 
@@ -102,7 +86,7 @@
 
     <!-- Footer -->
             
-    <footer>powered by <b>Mauro Leoci</b> &lambda;</footer>
+    <footer>&lambda; Powered by <b>Mauro Leoci</b> &lambda;</footer>
 
 </body>
 </html>

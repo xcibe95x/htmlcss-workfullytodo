@@ -39,6 +39,27 @@ footer {
     color: white;
     text-align: center;
     font-size: 10px;
+    padding-bottom: 26px;
+}
+
+li {
+    min-height: 40px;
+}
+
+li:before {
+    content: '⨯';
+    color: rgb(175, 17, 17);
+    border: 2px solid rgb(175, 17, 17);
+    border-radius: 50%;
+    padding: 2px 6px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+li.completed:before {
+    content: '✓';
+    color: green;
+    border: 2px solid green;
 }
 
 /* Page Logo */
@@ -52,8 +73,8 @@ footer {
 .container {
 
     background-color: #fff;
-    width: 60%;
-    padding: 20px 0 50px 0;
+    width: 70%;
+    padding: 20px 0 0 0;
     margin: 50px auto;
     border-radius: 10px;
     overflow: auto;
@@ -70,15 +91,17 @@ footer {
 /* Tasks */
 
 .tasks {
-    margin: 20px;
+    margin: 30px;
 }
 
 .tasks > h2 {
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .task {
-    padding: 5px;
+   text-decoration: none;
+   list-style: none;
 }
 
 .task > p {
@@ -88,25 +111,6 @@ footer {
  
 .task > span {
     margin-right: 10px;
-}
-
-.task > span.completed, span.pending {
-    border-radius: 100%;
-    padding: 2px 6px;
-}
-
-.completed {
-
-    color: green;
-    border: 2px solid green;
-
-}
-
-.pending {
-
-    color: darkred;
-    border: 2px solid darkred;
-
 }
 
 .dropdown {
